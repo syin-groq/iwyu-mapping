@@ -3,8 +3,8 @@
   { "include": ["<__mutex_base>", "private", "<mutex>", "public"] },
   { "include": ["<__tree>", "private", "<set>", "public"] },
   { "include": ["<__tree>", "private", "<map>", "public"] },
-  { "include:" [ "<__hash_table>", "private", "<unordered_map>", "public" ] },
-  { "include:" [ "<__hash_table>", "private", "<unordered_set>", "public" ] },
+  { "include": [ "<__hash_table>", "private", "<unordered_map>", "public" ] },
+  { "include": [ "<__hash_table>", "private", "<unordered_set>", "public" ] },
 
   # For the following entries:
   # cd llvm-project/libcxx/include ; find -type d -name "__*" | sort | sed -e 's#./__\(.*\)#  { "include": ["@<__\1/.*>", "private", "<\1>", "public"] },#'
